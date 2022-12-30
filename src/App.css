@@ -1,0 +1,52 @@
+table, th, td{
+  border: 1px solid var(---border-color);
+  border-collapse: collapse;
+}
+
+td{
+padding: 5px;
+}
+
+
+.email{
+  text-decoration: underline;
+  color: rgb(11, 113, 216);
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto
+}
+
+button{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: var(--button-backgroundColor);
+  color: var(--button-text);
+  border: 1x solid black;
+  outline: none;
+}
+
+
+.dark-theme{
+  ---border-color: white;
+  color: white;
+  --button-backgroundColor: white;
+  --button-text: black;
+  background-color: black;
+}
+
+.light-theme{
+  ---border-color: black;
+  color: black;
+  --button-backgroundColor: black;
+  --button-text: white;
+  background-color: white;
+}
